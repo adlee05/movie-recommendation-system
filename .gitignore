@@ -1,0 +1,27 @@
+# Local Python environment and bytecode
+spark/.venv/
+**/__pycache__/
+*.py[cod]
+
+# MovieLens data files (download separately; keep the dataset README/scripts)
+dataset/ml-10m.zip
+dataset/ml-10M100K/*.dat
+
+# Local Spark/Hive runtime data and generated outputs
+spark-warehouse/
+metastore_db/
+derby.log
+spark/models/
+spark/recommendations/
+spark/output/
+spark/outputs/
+
+# Local secrets and logs
+.env
+.env.*
+!.env.example
+*.log
+
+# OS/editor files
+.DS_Store
+Thumbs.db
